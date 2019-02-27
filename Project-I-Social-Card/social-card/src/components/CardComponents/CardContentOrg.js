@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css';
 
 const CardContentOrg = (props) =>{
-    return <p className="BoldGrey">reactjs.org</p>
+    return <p className="CardContentOrg">reactjs.org</p>
 }
 
 

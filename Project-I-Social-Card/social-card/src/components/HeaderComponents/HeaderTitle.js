@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.css';
 
-const HeaderTitle = (props) => {
-    return <p className="HeaderTitle">Lambda School @LambdaSchool · 26 jan</p>
-
+const HeaderTitleC = (props) => {
+    return <p className="HeaderTitle"><strong>Lambda School</strong> <span className="grey">@LambdaSchool · 26 jan</span>
+    </p>
 }
 
-    export default HeaderTitle;
+    export default HeaderTitleC;

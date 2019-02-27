@@ -1,0 +1,10 @@
+
+
+.Container{
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+    border: 1px solid red;
+    height: 600px;
+}

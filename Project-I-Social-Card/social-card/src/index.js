@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
 import App from './App';
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
@@ -16,3 +17,4 @@ import CardContentOrg from './components/CardComponents/CardContentOrg';
 const parent = document.getElementById('root');
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
