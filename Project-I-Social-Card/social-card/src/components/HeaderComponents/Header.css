@@ -1,11 +1,11 @@
 /* All styles for your header Components live here */
 
-.MainContainer{
+/* .MainContainer{
     border: 1px solid red;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
-}
+} */
 
 .HeaderContainer{
     max-width: 870px;
@@ -24,13 +24,13 @@
 }
 
 .HeaderTitle{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 95%;
     font-size: 1.2rem;
 }
 
 .HeaderContent{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 95%;
     font-size: 1.3rem;
    
