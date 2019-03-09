@@ -1,0 +1,38 @@
+
+.Container{
+    border: 1px solid grey;
+}
+
+.ActionButton{
+    width:75%;
+    height: 95px;
+    font-size: 3rem;
+    
+}
+
+.ButtonDiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    
+}
+
+.red{
+    display: block;
+    width:25%;
+    height:95px;
+    /* border:2px solid blue; */
+    font-size: 4rem;
+    color: white;
+    border: 1px solid grey;
+    background-color: #9F050F;
+}
+
+.white{
+    display:block;
+    width:25%;
+    height:95px;
+ 
+    font-size: 4rem;
+    border: 1px solid grey;
+}
