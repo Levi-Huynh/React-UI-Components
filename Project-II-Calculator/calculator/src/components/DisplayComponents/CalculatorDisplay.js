@@ -1,14 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './Display.css';
 
-const Display =(props) => {
+class Display extends Component {
 
+    render() {
+        let {result} = this.props;
     return (
-     <form className="Display" >
-         <input type="text" placeholder="0"/>
-     </form>   
+     <div className="Display" >
+        {result}
+     </div>   
     )
 }
-
+}
 
 export default Display;
+
+// const Display =(props) => {
+
+//     return (
+//      <form className="Display" >
+//          <input type="text" placeholder="0"/>
+//      </form>   
+//     )
+// }

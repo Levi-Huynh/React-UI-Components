@@ -7,13 +7,14 @@ const ButtonDiv4 =(props) =>{
     
     return (
     <div className="ButtonDiv">
-   <NumberButton buttonStyle="white" text="1"/>
-     <NumberButton buttonStyle="white" text="2"/>
-     <NumberButton buttonStyle="white" text="3"/>
-     <NumberButton buttonStyle="red" text="+"/>
+  <button name="1" onClick={e => props.onClick(e.target.name)} className="white">1</button>
+  <button name="2" onClick={e => props.onClick(e.target.name)} className="white">2</button>
+  <button name="3"  onClick={e => props.onClick(e.target.name)} className="white">3</button>
+  <button name="+" onClick={e => props.onClick(e.target.name)} className="red">+</button>
 
     </div>
     )
 }
 
 export default ButtonDiv4;
+

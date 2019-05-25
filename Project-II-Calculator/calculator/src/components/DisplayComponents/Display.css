@@ -1,6 +1,11 @@
 
 .Display{
-  
+    height: 120px;
+    width: 100%;
+    font-size: 4.7rem;
+    text-align: right;
+    color:white;
+    background-color: black;
     
 
 }
